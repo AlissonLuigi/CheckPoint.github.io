@@ -10,14 +10,14 @@
     }
 
     .logo {
-        width: 10%;
+        width: 20%;
         flex-direction: row;
         gap: 20px;
     }
 
     .logo > img {
         margin-top: 0;
-        margin-left: 10%;
+        margin-left: 20%;
     }
 
     .nav {
