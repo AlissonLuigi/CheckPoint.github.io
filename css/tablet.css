@@ -24,14 +24,14 @@
     }
 
     .nav > a {
-        min-width: 130px;
+        min-width: 135px;
     }
     
     /*Main*/
     
     .banner {
         display: block;
-        height: 450px;
+        height: 460px;
     }
 
     .banner > img {
