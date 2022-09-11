@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <title> São Paulo-SP </title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="imgs/logo-SP.png" alt="Logo">
+        </div>
+
+        <nav class ="nav">
+            <a href="#"> Home </a>
+            <a href="#"> Curiosidades </a>
+            <a href="#"> Vídeo </a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <img src="imgs/Sao-Paulo-banner.webp" alt="">
+        </section>
+
+        <section class ="curiosidades">
+
+            <div class="curiosidade-title">
+                <h2> Curiosidades </h2>
+            </div>
+
+            <div class="curiosidade-cards">
+
+                <div class="card">
+                    <img src="imgs/mercado-municipal.jpg" alt="posto">
+                    <h2> Mercado Municipal de São Paulo na revolução
+                    </h2>
+                    <p>
+                        O Mercado Municipal de São Paulo foi usado durante a revolução de 1932 por soldados para treinamentos de tiro ao alvo.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="imgs/pizza.webp" alt="wenceslau">
+                    <h2> Paulistanos consomem 1 milhão de pizzas por dia
+                    </h2>
+                    <p>
+                        Segundo dados do São Paulo Convention & Visitors Bureau, São Paulo é considerada a segunda cidade que mais consome pizzas no mundo, somando mais de 700 pizzas por minuto.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="imgs/cacareco-para-presidente.jpg" alt="bronze">
+                    <h2> São Paulo já teve um rinoceronte como vereador </h2>
+                    <p>
+                        Em 1959 os paulistanos estavam extremamente descontentes com os candidatos a vereadores, por isso elegeram um rinoceronte chamado “Cacareco”. 
+                        Naquela época as eleições eram feitas manualmente e o animal recebeu aproximadamente 100 mil votos para o cargo.
+
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="video">
+           
+            <div class="video-title">
+                <h2> Conhecendo SP</h2>
+
+            </div>
+            
+            <div class = "video-frame">
+                <iframe src="https://www.youtube.com/embed/hk_kUe7LCAA">
+                </iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contatos">
+
+            <div class="contato-card">
+                <a href="https://www.linkedin.com/in/alisson-luigi-045452145"> <img src="imgs/Linkedin.webp" alt=""> </a>
+                <h2> LinkedIn </h2>
+            </div>
+
+            <div class="contato-card">
+                <a href="https://github.com/AlissonLuigi" target="_blank"> <img src="imgs/Git.png" alt=""> </a>
+                <h2> GitHub </h2>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
