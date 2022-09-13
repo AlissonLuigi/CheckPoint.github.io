@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,11 +16,10 @@ header {
     background-color: #C4C4C4;
     width: 100%;
     height: 550px;
-   border: 3px solid black;
+    border: 3px solid blue;
     display: flex;
     align-items: center;
     flex-direction: column;
-    transform: scale(2);
 }
 
 .logo {
@@ -50,7 +51,7 @@ header {
 
     min-width: 220px; 
     padding: 15px;
-    border: 3px solid black;
+    border: 3px solid blue;
     border-radius: 20px;
     background-color: white;
 
@@ -65,7 +66,7 @@ header {
 
 .nav > a:hover {
     font-size: 0.8em;
-    color: black;
+    color: blue;
 }
 
 /* Main */
@@ -85,6 +86,20 @@ main {
 .banner > img {
     width: 100%;
     height: 750px;
+}
+
+.banner > p {
+
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 20px;
+    position: relative;
+    bottom: 700px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: justify;
 }
 
 .curiosidade-title {
@@ -115,7 +130,8 @@ main {
     
     background: white;
     border-radius: 20px;
-    border: 3px solid black;
+    border: 3px solid blue;
+    box-shadow: 5px 5px 5px black;
 }
 
 .card > img {
@@ -166,9 +182,13 @@ main {
 /* Footer */
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     width: 100%;
     background: #C4C4C4;
-    border: 3px solid black;
+    border: 3px solid blue;
 }
 
 .contatos {
@@ -183,7 +203,7 @@ footer {
 .contato-card > a > img {
     width: 150px;
     border-radius: 155px;
-    border: 5px solid black;
+    border: 5px solid blue;
 }
 
 .contato-card > a:hover {
@@ -195,4 +215,23 @@ footer {
     text-align: center;
     font-size: 35px;
     padding-top: 5px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 349px) {
+
+    .card {
+        width: 100%;
+    }
+
+    .card > p {
+        font-size: 14px;
+    }
+
 }
