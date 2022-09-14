@@ -16,9 +16,9 @@
     }
 
     .nav {
-        flex-direction: row;
+        flex-direction: flex;
         height: 100px;
-        margin-top: 50px;
+        margin-top: 20px;
         justify-content: center;
         gap: 20px;
     }
