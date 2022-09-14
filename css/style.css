@@ -13,10 +13,10 @@ body {
 /* Header */
 
 header {
-    background-color: #C4C4C4;
+    background-color: #808080;
     width: 100%;
     height: 550px;
-    border: 3px solid black;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,7 +25,7 @@ header {
 .logo {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex;
 }
 
 .logo > img {
@@ -43,7 +43,7 @@ header {
 
     font-size: 20px;
     width: 100%;
-    height: 330px;
+    height: 30px;
 
 }
 
@@ -53,7 +53,7 @@ header {
     padding: 15px;
     border: 3px solid black;
     border-radius: 20px;
-    background-color: white;
+    background-color: #E6E6FA;
 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -128,7 +128,7 @@ main {
     align-items: center;
     gap: 30px;
     
-    background: white;
+    background: #E6E6FA;
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 5px 5px 5px black;
@@ -142,7 +142,7 @@ main {
 
 .card > h2 {
     width: 70%;
-    font-size: 18px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -150,7 +150,7 @@ main {
 .card > p {
     padding: 0px 45px 0px 45px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -160,7 +160,7 @@ main {
 }
 
 .video-title {
-    padding: 20px 20px;
+    padding: 30px;
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 18px;
 
@@ -187,8 +187,8 @@ footer {
     align-items: center;
     
     width: 100%;
-    background: #C4C4C4;
-    border: 3px solid black;
+    background: #808080;
+    border: 1px solid black;
 }
 
 .contatos {
@@ -197,17 +197,17 @@ footer {
     gap: 100px;
     align-items: center;
 
-    padding: 80px 0px 80px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .contato-card > a > img {
     width: 150px;
     border-radius: 155px;
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 .contato-card > a:hover {
-    opacity: 0.5;
+    opacity: 0.40;
 }
 
 .contato-card > h2 {
@@ -224,7 +224,7 @@ footer p {
     padding-bottom: 10px;
 }
 
-@media (max-width: 349px) {
+@media (max-width: 34px) {
 
     .card {
         width: 100%;
