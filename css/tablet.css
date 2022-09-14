@@ -18,7 +18,7 @@
     .nav {
         flex-direction: row;
         height: 100px;
-        margin-top: 0px;
+        margin-top: 50px;
         justify-content: center;
         gap: 20px;
     }
